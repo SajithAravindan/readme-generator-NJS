@@ -1,29 +1,31 @@
-## Professional README Template ![License](https://img.shields.io/badge/license-Mozilla Public License 2.0-green)(./LICENSE)
+## Professional README Template  ![License](https://img.shields.io/badge/license-GNU_GPLv3-green)(https://opensource.org/licenses/GNU_GPLv3)
   
   
   ## Description 
   
   Your README might also describe some of the challenges you faced, as well as the features you plan to implement in the future. And if your project is deployed, make sure to include a link to the deployed application so people can see it in action!
 
-  ## Table of Contents * [Installation](#installation) * [Usage](#usage) * [Contributing](#contributing) * [Tests](#tests) * [Credits](#credits) * [License](#license) * [Questions](#questions) 
+  ## Table of Contents 
+  
+   * [Installation](#installation)  * [Usage](#usage)  * [Contributing](#contributing)  * [Tests](#tests)  * [Credits](#credits)  * [License](#license)  * [Questions](#questions) 
   
   ## Installation
   
   *Steps required to install project and how to get the development environment running:*
   
-  - What was your motivation?
+  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
   
   ## Usage 
   
   *Instructions and examples for use:*
   
-  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
   
   ## Contributing
   
   *If you would like to contribute it, you can follow these guidelines for how to do so.*
   
-  - What did you learn?We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
+  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
   
   ## Tests
   
@@ -33,7 +35,7 @@
   
   ## License
   
-  Mozilla Public License 2.0
+  GNU GPLv3
   
   ---
   
@@ -45,6 +47,6 @@
   GitHub:<a href='https://github.com/SajithAravindan' target='_blank'>Click here</a>
   
 
-  Email: SA@SA.COM
+  Email: ds@sddsf.com
 
   

@@ -39,27 +39,31 @@ var getUserGitDetails = userGitusernme => {
 function generateMarkdown(data) {
 
   // Conditionally Table of Contents
-  let readMeTOC = `## Table of Contents `;
+  let readMeTOC = `## Table of Contents 
+  
+  `;
 
-  if (data.installation !== '') readMeTOC += `* [Installation](#installation) `;
+  if (data.installation !== '') readMeTOC += ` * [Installation](#installation) `;
 
-  if (data.usage !== '') readMeTOC += `* [Usage](#usage) `;
+  if (data.usage !== '') readMeTOC += ` * [Usage](#usage) `;
 
-  if (data.contributing !== '') readMeTOC += `* [Contributing](#contributing) `;
+  if (data.contributing !== '') readMeTOC += ` * [Contributing](#contributing) `;
 
-  if (data.tests !== '') readMeTOC += `* [Tests](#tests) `;
+  if (data.tests !== '') readMeTOC += ` * [Tests](#tests) `;
 
-  if (data.credits !== '') readMeTOC += `* [Credits](#credits) `; 
+  if (data.credits !== '') readMeTOC += ` * [Credits](#credits) `; 
 
-  readMeTOC += `* [License](#license) `;
+  readMeTOC += ` * [License](#license) `;
 
-  readMeTOC += `* [Questions](#questions) `;
+  readMeTOC += ` * [Questions](#questions) `;
 
   
 
   // Generate required portions of the README
+  let strLicenseBadge = data.license;
+  strLicenseBadge = strLicenseBadge.replace(' ','_');
   let readMeBody = 
-  `## ${data.title} ![License](https://img.shields.io/badge/license-${data.license}-green)(./LICENSE)
+  `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)(https://opensource.org/licenses/${strLicenseBadge})
   
   
   ## Description 

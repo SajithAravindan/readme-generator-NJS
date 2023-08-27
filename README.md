@@ -42,13 +42,14 @@ THEN I am taken to the corresponding section of the README
 
 ## Review
 
-GitHub Repository:https://github.com/SajithAravindan/readme-generator-NJS.git
+GitHub Repository: https://github.com/SajithAravindan/readme-generator-NJS.git
 
 
 ## License
-- Please refer to the LICENSE in the repo. (MIT License)
+- Please refer to the LICENSE in the repo. <a href="https://github.com/SajithAravindan/readme-generator-NJS/blob/main/LICENSE">(MIT License)</a>
+
 
 ---
 
-© 2023.
+Copyright (c) 2023 SajithAravindan.
 

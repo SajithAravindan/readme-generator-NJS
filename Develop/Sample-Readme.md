@@ -1,4 +1,4 @@
-## Professional README  ![License](https://img.shields.io/badge/license-GNU AGPLv3-green)
+## Professional README  ![License](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-green)
   
   
   ## Description 
@@ -10,6 +10,10 @@
    * [Installation](#installation) 
   
    * [Usage](#usage)
+  
+   * [Contributing](#contributing) 
+  
+   * [Credits](#credits) 
   
    * [License](#license) 
   
@@ -27,9 +31,15 @@
   
   We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
   
+  ## Contributing
+  
+  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  
+  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
+  
   ## License
   
-  GNU AGPLv3
+  Mozilla Public License 2.0
   
   ---
   
@@ -41,6 +51,6 @@
   GitHub:<a href='https://github.com/SajithAravindan' target='_blank'>Click here</a>
   
 
-  Email: fsfds@sdfsdf.com
+  Email: cxzczxc@fdgd.com
 
   

@@ -36,8 +36,9 @@ function generateMarkdown(data) {
   
 
   // Generate required portions of the README
-  let strLicenseBadge = data.license;
-  strLicenseBadge = strLicenseBadge.replace('/ /g ','_');
+  let strLicenseBadge = data.license.replace(/ /g,'_');
+  console.log(strLicenseBadge);
+  //strLicenseBadge = strLicenseBadge.replace(/ /g,'_');
   let readMeBody = 
   `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)
   

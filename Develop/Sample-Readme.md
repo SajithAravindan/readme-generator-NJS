@@ -1,4 +1,4 @@
-## Professional README Template  ![License](https://img.shields.io/badge/license-GNU_GPLv3-green)(https://opensource.org/licenses/GNU_GPLv3)
+## Professional README Template  ![License](https://img.shields.io/badge/license-GNU_GPLv3-green)
   
   
   ## Description 
@@ -7,7 +7,13 @@
 
   ## Table of Contents 
   
-   * [Installation](#installation)  * [Usage](#usage)  * [Contributing](#contributing)  * [Tests](#tests)  * [Credits](#credits)  * [License](#license)  * [Questions](#questions) 
+   * [Installation](#installation)  
+   * [Usage](#usage)  
+   * [Contributing](#contributing)  
+   * [Tests](#tests)  
+   * [Credits](#credits)  
+   * [License](#license)  
+   * [Questions](#questions) 
   
   ## Installation
   

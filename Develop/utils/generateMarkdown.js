@@ -1,39 +1,3 @@
-// Function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   let LicenseBadge = `
-//    [![License](https://img.shields.io/badge/license-${license}-green)](./LICENSE)
-//   `
-//   return LicenseBadge;
-// }
-
-// Function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) { }
-
-// Function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
-
-var getUserGitDetails = userGitusernme => {
-
-  let apiUrl = `https://api.github.com/users/${userGitusernme}`;
-  
-    fetch(apiUrl)
-    .then(function (response) {
-      if (response.ok) {        
-        response.json().then(function (data) {
-          console.log(data);
-          return data;
-        });
-      } else {
-        return response.statusText;
-      }
-    })
-    .catch(function (error) {
-      return 'Unable to connect to GitHub';
-    });
-}
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
@@ -73,9 +37,9 @@ function generateMarkdown(data) {
 
   // Generate required portions of the README
   let strLicenseBadge = data.license;
-  strLicenseBadge = strLicenseBadge.replace(' ','_');
+  strLicenseBadge = strLicenseBadge.replace('/ /g ','_');
   let readMeBody = 
-  `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)(https://opensource.org/licenses/${strLicenseBadge})
+  `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)
   
   
   ## Description 
@@ -183,9 +147,7 @@ function generateMarkdown(data) {
 
   // Return markdown
   return readMeBody;
-
-
 }
 
-module.exports = {generateMarkdown, getUserGitDetails};
+module.exports = generateMarkdown;
 

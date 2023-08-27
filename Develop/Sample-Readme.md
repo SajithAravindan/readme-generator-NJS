@@ -1,4 +1,4 @@
-## Professional README Template  ![License](https://img.shields.io/badge/license-Mozilla_Public License 2.0-green)(https://opensource.org/licenses/Mozilla_Public License 2.0)
+## Professional README  ![License](https://img.shields.io/badge/license-GNU AGPLv3-green)
   
   
   ## Description 
@@ -10,12 +10,6 @@
    * [Installation](#installation) 
   
    * [Usage](#usage)
-  
-   * [Contributing](#contributing) 
-  
-   * [Tests](#tests)
-  
-   * [Credits](#credits) 
   
    * [License](#license) 
   
@@ -33,21 +27,9 @@
   
   We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
   
-  ## Contributing
-  
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
-  
-  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
-  
-  ## Tests
-  
-  *Tests for application and how to run them:*
-  
-  We've provided a flexible template to use as a starting point, but feel free to adapt your README file to suit your project's particular needs.
-  
   ## License
   
-  Mozilla Public License 2.0
+  GNU AGPLv3
   
   ---
   
@@ -59,6 +41,6 @@
   GitHub:<a href='https://github.com/SajithAravindan' target='_blank'>Click here</a>
   
 
-  Email: dfdsfsd@dsfsdf.com
+  Email: fsfds@sdfsdf.com
 
   

@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 //Internal Files
-const {generateMarkdown, getUserGitDetails} = require('./utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // Array of questions for user input
 const questions = [

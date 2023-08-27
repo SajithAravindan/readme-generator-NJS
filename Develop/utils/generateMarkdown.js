@@ -43,17 +43,29 @@ function generateMarkdown(data) {
   
   `;
 
-  if (data.installation !== '') readMeTOC += ` * [Installation](#installation) `;
+  if (data.installation !== '') readMeTOC += ` * [Installation](#installation) 
+  
+  `;
 
-  if (data.usage !== '') readMeTOC += ` * [Usage](#usage) `;
+  if (data.usage !== '') readMeTOC += ` * [Usage](#usage)
+  
+  `;
 
-  if (data.contributing !== '') readMeTOC += ` * [Contributing](#contributing) `;
+  if (data.contributing !== '') readMeTOC += ` * [Contributing](#contributing) 
+  
+  `;
 
-  if (data.tests !== '') readMeTOC += ` * [Tests](#tests) `;
+  if (data.tests !== '') readMeTOC += ` * [Tests](#tests)
+  
+  `;
 
-  if (data.credits !== '') readMeTOC += ` * [Credits](#credits) `; 
+  if (data.credits !== '') readMeTOC += ` * [Credits](#credits) 
+  
+  `; 
 
-  readMeTOC += ` * [License](#license) `;
+  readMeTOC += ` * [License](#license) 
+  
+  `;
 
   readMeTOC += ` * [Questions](#questions) `;
 

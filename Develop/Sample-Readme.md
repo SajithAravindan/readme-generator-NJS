@@ -1,4 +1,4 @@
-## Professional README Template  ![License](https://img.shields.io/badge/license-GNU_GPLv3-green)
+## Professional README Template  ![License](https://img.shields.io/badge/license-Mozilla_Public License 2.0-green)(https://opensource.org/licenses/Mozilla_Public License 2.0)
   
   
   ## Description 
@@ -7,12 +7,18 @@
 
   ## Table of Contents 
   
-   * [Installation](#installation)  
-   * [Usage](#usage)  
-   * [Contributing](#contributing)  
-   * [Tests](#tests)  
-   * [Credits](#credits)  
-   * [License](#license)  
+   * [Installation](#installation) 
+  
+   * [Usage](#usage)
+  
+   * [Contributing](#contributing) 
+  
+   * [Tests](#tests)
+  
+   * [Credits](#credits) 
+  
+   * [License](#license) 
+  
    * [Questions](#questions) 
   
   ## Installation
@@ -41,7 +47,7 @@
   
   ## License
   
-  GNU GPLv3
+  Mozilla Public License 2.0
   
   ---
   
@@ -53,6 +59,6 @@
   GitHub:<a href='https://github.com/SajithAravindan' target='_blank'>Click here</a>
   
 
-  Email: ds@sddsf.com
+  Email: dfdsfsd@dsfsdf.com
 
   

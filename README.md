@@ -39,11 +39,13 @@ THEN I am taken to the corresponding section of the README
 
 ## Demo
 
+[![Watch the video](./Develop/img/demo.png)](https://drive.google.com/file/d/10U3hvOV28nsPrda8Sds4EvrRY_V-FxRC/view)
 
 ## Review
 
 GitHub Repository: https://github.com/SajithAravindan/readme-generator-NJS.git
 
+Demo Video Link: https://drive.google.com/file/d/10U3hvOV28nsPrda8Sds4EvrRY_V-FxRC/view
 
 ## License
 - Please refer to the LICENSE in the repo. <a href="https://github.com/SajithAravindan/readme-generator-NJS/blob/main/LICENSE">(MIT License)</a>

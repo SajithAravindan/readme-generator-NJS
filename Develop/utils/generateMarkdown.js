@@ -25,18 +25,18 @@ function generateMarkdown(data) {
 
   if (data.credits !== '') readMeTOC += ` * [Credits](#credits) 
   
-  `; 
+  `;
 
   readMeTOC += ` * [License](#license) 
   
   `;
 
-  readMeTOC += ` * [Questions](#questions) `;  
+  readMeTOC += ` * [Questions](#questions) `;
 
-  let strLicenseBadge = data.license.replace(/ /g,'_');//replace empty spaces in License name   
+  let strLicenseBadge = data.license.replace(/ /g, '_');//replace empty spaces in License name   
   // Generate required portions of the README
-  let readMeBody = 
-  `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)
+  let readMeBody =
+    `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)
   
   
   ## Description 
@@ -47,27 +47,27 @@ function generateMarkdown(data) {
 
   // Add Table of Contents
   readMeBody += readMeTOC;
- 
+
   // Installation section
   if (data.installation !== '') {
-  
-  readMeBody +=
-  `
+
+    readMeBody +=
+      `
   
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  *Steps required to the Application running:*
   
   ${data.installation}`
   };
-  
+
 
   //Usage section
   if (data.usage !== '') {
-  
-  readMeBody +=
-  
-  `
+
+    readMeBody +=
+
+      `
   
   ## Usage 
   
@@ -75,40 +75,52 @@ function generateMarkdown(data) {
   
   ${data.usage}`
   };
-  
-  
+
+
   //Contributing section
   if (data.contributing !== '') {
 
-  readMeBody +=
-    
-  `
+    readMeBody +=
+
+      `
   
   ## Contributing
   
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  *If you would like to contribute, you can follow these guidelines for how to do so.*
   
   ${data.contributing}`
   };
-  
+
 
   //Tests section
   if (data.tests !== '') {
-  
-  readMeBody +=
-  `
+
+    readMeBody +=
+      `
   
   ## Tests
   
-  *Tests for application and how to run them:*
+  *How to run Tests for the application:*
   
   ${data.tests}`
+  };
+
+  //Credits section
+  if (data.credits !== '') {
+
+    readMeBody +=
+      `
+    
+  ## Credits
+    
+        
+  ${data.credits}`
   };
 
 
   // License section
   readMeBody +=
-  `
+    `
   
   ## License
   
@@ -117,8 +129,8 @@ function generateMarkdown(data) {
 
 
   // Questions section
-  let userGitDetails = 
-  `
+  let userGitDetails =
+    `
   ---
   
   ## Questions?
@@ -131,9 +143,8 @@ function generateMarkdown(data) {
 
   // If email is not null, add to Developer section
   if (data.email !== '') {
-  
-  userGitDetails +=
-  `
+    userGitDetails +=
+      `
 
   Email: ${data.email}
 

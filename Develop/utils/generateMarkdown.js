@@ -1,5 +1,5 @@
 
-// Function to generate markdown for README
+// Function to generate Content for README file
 function generateMarkdown(data) {
 
   // Conditionally Table of Contents
@@ -31,14 +31,10 @@ function generateMarkdown(data) {
   
   `;
 
-  readMeTOC += ` * [Questions](#questions) `;
+  readMeTOC += ` * [Questions](#questions) `;  
 
-  
-
+  let strLicenseBadge = data.license.replace(/ /g,'_');//replace empty spaces in License name   
   // Generate required portions of the README
-  let strLicenseBadge = data.license.replace(/ /g,'_');
-  console.log(strLicenseBadge);
-  //strLicenseBadge = strLicenseBadge.replace(/ /g,'_');
   let readMeBody = 
   `## ${data.title}  ![License](https://img.shields.io/badge/license-${strLicenseBadge}-green)
   
@@ -49,10 +45,10 @@ function generateMarkdown(data) {
 
   `
 
-  // Add Table of Contents to markdown
+  // Add Table of Contents
   readMeBody += readMeTOC;
  
-  // Optional Installation section
+  // Installation section
   if (data.installation !== '') {
   
   readMeBody +=
@@ -66,7 +62,7 @@ function generateMarkdown(data) {
   };
   
 
-  // Optional Usage section
+  //Usage section
   if (data.usage !== '') {
   
   readMeBody +=
@@ -81,7 +77,7 @@ function generateMarkdown(data) {
   };
   
   
-  // Optional Contributing section
+  //Contributing section
   if (data.contributing !== '') {
 
   readMeBody +=
@@ -96,7 +92,7 @@ function generateMarkdown(data) {
   };
   
 
-  // Optional Tests section
+  //Tests section
   if (data.tests !== '') {
   
   readMeBody +=
@@ -110,7 +106,7 @@ function generateMarkdown(data) {
   };
 
 
-  // License section is required
+  // License section
   readMeBody +=
   `
   
@@ -120,7 +116,7 @@ function generateMarkdown(data) {
   `;
 
 
-  // Questions / About Developer section
+  // Questions section
   let userGitDetails = 
   `
   ---
@@ -133,8 +129,8 @@ function generateMarkdown(data) {
   GitHub:<a href='https://github.com/${data.username}' target='_blank'>Click here</a>
   `;
 
-  // If GitHub email is not null, add to Developer section
-  if (data.email !== null) {
+  // If email is not null, add to Developer section
+  if (data.email !== '') {
   
   userGitDetails +=
   `
@@ -143,10 +139,10 @@ function generateMarkdown(data) {
 
   `};
 
-  // Add developer section to markdown
+  //Developer section
   readMeBody += userGitDetails;
 
-  // Return markdown
+  // Return Readme Body
   return readMeBody;
 }
 

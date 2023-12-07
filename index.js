@@ -68,7 +68,7 @@ const questions = [
         type: 'input',//GitHub username Question
         message: " **What is your GitHub username?",
         name: 'username',
-        default: 'SajithAravindan',
+        //default: 'SajithAravindan',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");

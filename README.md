@@ -39,7 +39,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Demo
 
-[![Watch the video](./Develop/img/demo.png)](https://drive.google.com/file/d/10U3hvOV28nsPrda8Sds4EvrRY_V-FxRC/view)
+[![Watch the video](./img/demo.png)](https://drive.google.com/file/d/10U3hvOV28nsPrda8Sds4EvrRY_V-FxRC/view)
 
 ## Review
 
